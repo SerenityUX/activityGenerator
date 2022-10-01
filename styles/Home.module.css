@@ -1,0 +1,79 @@
+.background {
+    margin: 0;
+}
+.main {
+    font-family: system-ui;
+    padding: -8;
+}
+.mainHeader {
+    position: absolute;
+    top: 32px;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+    margin: 0;
+}
+
+.defaultText {
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 128px;
+    text-align: center;
+    
+}
+
+.lowOpacity {
+    opacity: 0.68    
+  
+}
+.strongText {
+    display: inline;
+    opacity: 1.0; 
+    font-weight: 500; 
+    text-decoration-line: underline;
+}
+
+.captionText {
+    position: absolute;
+    bottom: 32px;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* identical to box height */
+    opacity: 0.68;
+}
+
+.pressableButton {
+    border-radius: 8px;
+    opacity: 1;
+    padding: 4;
+    width: 20px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 42px;
+}
+
+.pressableButtonContainer {
+    display: inline-block;
+    width: 84px;
+    height: 42px;
+    justify-content: center;
+    border-radius: 8px;
+    align-items: center;
+    margin-left: 4px;
+    margin-right: 4px;
+}
